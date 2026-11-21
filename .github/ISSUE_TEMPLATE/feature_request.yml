@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest a feature or help define the project.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What need would this idea address, and who would benefit?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed idea
+      description: Describe the outcome or experience you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: considerations
+    attributes:
+      label: Other considerations
+      description: Note alternatives, accessibility needs, or open questions.
+    validations:
+      required: false

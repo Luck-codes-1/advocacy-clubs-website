@@ -1,0 +1,22 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Common generated output
+node_modules/
+dist/
+build/
+coverage/
+*.log
